@@ -7,3 +7,15 @@
 //
 
 #include "City.hpp"
+
+City::City(string cityName){
+    
+    this-> cityName = cityName;
+    
+}
+
+City::~City(){
+    
+    
+    
+}

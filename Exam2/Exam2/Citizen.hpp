@@ -44,6 +44,16 @@ public:
     
     //Sets the favorite color for this citizen
     void setFavoriteColor(string color);
+    
+private:
+    int id;
+    
+    string firstName;
+    
+    string lastName;
+    
+    string color;
+    
 };
 
 #endif /* Citizen_hpp */

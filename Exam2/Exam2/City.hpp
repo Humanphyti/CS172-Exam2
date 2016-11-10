@@ -12,6 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <fstream>
 #include "Citizen.hpp"
 using namespace std;
 
@@ -56,6 +57,14 @@ public:
     //For example, if color is “Blue” this will return all citizens
     //for this city who’s favorite color is Blue.
     vector<Citizen*> getCitizensForFavoriteColor(string color);
+    
+private:
+    string cityName;
+    
+    string fileName;
+    
+    vector <Citizen> * citizens = new vector <Citizen>;
+    
 };
 
 #endif /* City_hpp */
