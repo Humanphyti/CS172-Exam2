@@ -3,7 +3,8 @@
 //  Exam2
 //
 //  Created by Eben Schumann on 11/10/16.
-//  Copyright © 2016 Eben Schumann. All rights reserved.
+//  I affirm that all code given below was written solely by he, Stephen Johnson, and that any help he received
+//  adhered to the rules stated for this exam.
 //
 
 //

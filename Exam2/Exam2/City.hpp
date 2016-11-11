@@ -3,7 +3,8 @@
 //  Exam2
 //
 //  Created by Eben Schumann on 11/10/16.
-//  Copyright © 2016 Eben Schumann. All rights reserved.
+//  I affirm that all code given below was written solely by me, Eben Schumann, and that any help I received
+//  adhered to the rules stated for this exam.
 //
 
 #ifndef City_hpp
@@ -20,6 +21,8 @@ class City
 {
     
 public:
+
+	string getFirstPhrase(string& phrases);
     
     //Creates a new city with the given name
     //When the city is created you need to restore
